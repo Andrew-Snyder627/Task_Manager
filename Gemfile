@@ -42,6 +42,8 @@ group :development, :test do
 end
 
 group :development do
+  # Use console on exceptions pages [http://github.com/rails/web-console]
+  gem "web-console"
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
